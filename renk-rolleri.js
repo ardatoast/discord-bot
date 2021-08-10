@@ -59,7 +59,7 @@ module.exports = (client, DiscordJS) => {
         if (interaction.customId === 'c') {
 
             if (!interaction.member.roles.cache.get("835059086352449567")) {
-                if (!interaction.member.roles.cache.get("827275389302865950")) return interaction.followUp({ content: 'Bu rolleri almanız için yeterli rolünüz yok. ( Booster & Özel Üye)', ephemeral: true });
+                if (!interaction.member.roles.cache.get("872572364557287475")) return interaction.followUp({ content: 'Bu rolleri almanız için yeterli rolünüz yok. ( Booster & Özel Üye)', ephemeral: true });
             }
     
 
